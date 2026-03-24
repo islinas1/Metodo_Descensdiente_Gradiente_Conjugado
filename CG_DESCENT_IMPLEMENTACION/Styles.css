@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+/* ── Título principal ── */
+.main-title {
+    font-size: 3rem;
+    font-weight: 900;
+    background: linear-gradient(135deg, #00d4aa, #7b68ee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 1.2;
+}
+
+/* ── Subtítulo ── */
+.subtitle {
+    text-align: center;
+    color: #8888aa;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+/* ── Cajas de fórmulas ── */
+.formula-box {
+    background: linear-gradient(135deg, rgba(0,212,170,0.08), rgba(123,104,238,0.08));
+    border: 1px solid rgba(0,212,170,0.2);
+    border-radius: 12px;
+    padding: 1.2rem;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.2rem;
+    color: #00d4aa;
+    margin: 1rem 0;
+}
+
+/* ── Tarjetas de pasos del algoritmo ── */
+.step-card {
+    background: rgba(123,104,238,0.06);
+    border: 1px solid rgba(123,104,238,0.15);
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.step-num {
+    font-family: 'JetBrains Mono', monospace;
+    color: #7b68ee;
+    font-weight: bold;
+}
+
+/* ── Caja de resaltado ── */
+.highlight-box {
+    background: rgba(0,212,170,0.06);
+    border-left: 4px solid #00d4aa;
+    border-radius: 0 10px 10px 0;
+    padding: 1rem 1.5rem;
+    margin: 1rem 0;
+}
+
+/* ── Tarjetas de aplicaciones ── */
+.app-card {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 14px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s;
+    height: 100%;
+}
+
+.app-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(0,212,170,0.3);
+}
+
+.app-icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.8rem;
+    display: block;
+}
+
+/* ── Resaltado de iteraciones ── */
+.iter-highlight {
+    color: #00d4aa;
+    font-weight: bold;
+}
+
+/* ── Info del autor ── */
+.meta-info {
+    text-align: center;
+    color: #555570;
+    font-size: 0.85rem;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+
+/* ── Bordes en bloques de código ── */
+div[data-testid="stCodeBlock"] {
+    border: 1px solid rgba(0,212,170,0.15);
+    border-radius: 10px;
+}
+
+/* ── Caja de condición cumplida ── */
+.condition-pass {
+    background: rgba(0,212,170,0.08);
+    border: 1px solid rgba(0,212,170,0.25);
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    margin: 0.3rem 0;
+    color: #00d4aa;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9rem;
+}
+
+/* ── Caja de condición fallida ── */
+.condition-fail {
+    background: rgba(255,107,107,0.08);
+    border: 1px solid rgba(255,107,107,0.25);
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    margin: 0.3rem 0;
+    color: #ff6b6b;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9rem;
+}
+
+/* ── Tarjeta de Wolfe ── */
+.wolfe-card {
+    background: rgba(123,104,238,0.06);
+    border: 1px solid rgba(123,104,238,0.2);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 0.8rem 0;
+}
+
+.wolfe-card h5 {
+    color: #7b68ee;
+    margin-bottom: 0.5rem;
+}
+
+/* ── Sidebar navegación con iconos ── */
+section[data-testid="stSidebar"] .stColumns {
+    align-items: center;
+    margin-bottom: -12px;
+}
+
+section[data-testid="stSidebar"] .stButton > button[kind="secondary"] {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.08);
+    color: #8888aa;
+    font-size: 0.82rem;
+    padding: 6px 10px;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+section[data-testid="stSidebar"] .stButton > button[kind="secondary"]:hover {
+    border-color: rgba(0,212,170,0.3);
+    color: #00d4aa;
+    background: rgba(0,212,170,0.05);
+}
+
+section[data-testid="stSidebar"] .stButton > button[kind="primary"] {
+    background: rgba(0,212,170,0.12);
+    border: 1px solid rgba(0,212,170,0.35);
+    color: #00d4aa;
+    font-size: 0.82rem;
+    font-weight: 600;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
