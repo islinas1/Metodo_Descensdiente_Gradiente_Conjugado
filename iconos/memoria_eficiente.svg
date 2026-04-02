@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="g8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffcb6b"/>
+      <stop offset="100%" stop-color="#f0a030"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="#1a1a2e"/>
+  <g transform="translate(60,60)">
+    <!-- Chip body -->
+    <rect x="-26" y="-18" width="52" height="36" rx="4" fill="none" stroke="url(#g8)" stroke-width="2.5"/>
+    <!-- Inner circuit -->
+    <rect x="-18" y="-10" width="36" height="20" rx="2" fill="url(#g8)" opacity="0.1"/>
+    <!-- Pins bottom -->
+    <line x1="-18" y1="18" x2="-18" y2="28" stroke="url(#g8)" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="-9" y1="18" x2="-9" y2="28" stroke="url(#g8)" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="0" y1="18" x2="0" y2="28" stroke="url(#g8)" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="9" y1="18" x2="9" y2="28" stroke="url(#g8)" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="18" y1="18" x2="18" y2="28" stroke="url(#g8)" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Pins top -->
+    <line x1="-18" y1="-18" x2="-18" y2="-28" stroke="url(#g8)" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="-9" y1="-18" x2="-9" y2="-28" stroke="url(#g8)" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="0" y1="-18" x2="0" y2="-28" stroke="url(#g8)" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="9" y1="-18" x2="9" y2="-28" stroke="url(#g8)" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="18" y1="-18" x2="18" y2="-28" stroke="url(#g8)" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Check mark (efficient) -->
+    <polyline points="-6,2 -1,7 10,-6" fill="none" stroke="#00d4aa" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

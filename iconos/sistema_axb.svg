@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="g7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d4aa"/>
+      <stop offset="100%" stop-color="#00a888"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="#1a1a2e"/>
+  <g transform="translate(60,60)">
+    <!-- Matrix bracket left -->
+    <path d="M-32,-22 L-36,-22 L-36,22 L-32,22" fill="none" stroke="url(#g7)" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Matrix bracket right -->
+    <path d="M-8,-22 L-4,-22 L-4,22 L-8,22" fill="none" stroke="url(#g7)" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Matrix entries -->
+    <text x="-22" y="-10" text-anchor="middle" fill="url(#g7)" font-size="11" font-family="monospace" font-weight="bold">A</text>
+    <!-- x vector -->
+    <text x="8" y="4" text-anchor="middle" fill="#ffcb6b" font-size="18" font-weight="bold" font-family="serif" font-style="italic">x</text>
+    <!-- equals -->
+    <text x="20" y="4" text-anchor="middle" fill="#8888aa" font-size="18" font-weight="bold" font-family="sans-serif">=</text>
+    <!-- b vector -->
+    <text x="32" y="4" text-anchor="middle" fill="#7b68ee" font-size="18" font-weight="bold" font-family="serif" font-style="italic">b</text>
+    <!-- Decorative grid inside matrix -->
+    <rect x="-33" y="-18" width="8" height="8" rx="1" fill="url(#g7)" opacity="0.2"/>
+    <rect x="-23" y="-18" width="8" height="8" rx="1" fill="url(#g7)" opacity="0.35"/>
+    <rect x="-13" y="-18" width="8" height="8" rx="1" fill="url(#g7)" opacity="0.15"/>
+    <rect x="-33" y="-6" width="8" height="8" rx="1" fill="url(#g7)" opacity="0.3"/>
+    <rect x="-23" y="-6" width="8" height="8" rx="1" fill="url(#g7)" opacity="0.2"/>
+    <rect x="-13" y="-6" width="8" height="8" rx="1" fill="url(#g7)" opacity="0.4"/>
+    <rect x="-33" y="6" width="8" height="8" rx="1" fill="url(#g7)" opacity="0.15"/>
+    <rect x="-23" y="6" width="8" height="8" rx="1" fill="url(#g7)" opacity="0.4"/>
+    <rect x="-13" y="6" width="8" height="8" rx="1" fill="url(#g7)" opacity="0.25"/>
+  </g>
+</svg>

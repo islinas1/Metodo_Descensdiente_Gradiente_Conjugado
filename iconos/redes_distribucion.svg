@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="g5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d4aa"/>
+      <stop offset="100%" stop-color="#7b68ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="#1a1a2e"/>
+  <g transform="translate(60,60)">
+    <!-- Pipes / network edges -->
+    <line x1="0" y1="-22" x2="-22" y2="0" stroke="url(#g5)" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="-22" x2="22" y2="0" stroke="url(#g5)" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-22" y1="0" x2="0" y2="22" stroke="url(#g5)" stroke-width="3" stroke-linecap="round"/>
+    <line x1="22" y1="0" x2="0" y2="22" stroke="url(#g5)" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-22" y1="0" x2="22" y2="0" stroke="url(#g5)" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+    <line x1="0" y1="-22" x2="0" y2="22" stroke="url(#g5)" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+    <!-- Nodes -->
+    <circle cx="0" cy="-22" r="7" fill="#1a1a2e" stroke="url(#g5)" stroke-width="2.5"/>
+    <circle cx="-22" cy="0" r="7" fill="#1a1a2e" stroke="url(#g5)" stroke-width="2.5"/>
+    <circle cx="22" cy="0" r="7" fill="#1a1a2e" stroke="url(#g5)" stroke-width="2.5"/>
+    <circle cx="0" cy="22" r="7" fill="#1a1a2e" stroke="url(#g5)" stroke-width="2.5"/>
+    <!-- Labels inside nodes -->
+    <text x="0" y="-19" text-anchor="middle" fill="#00d4aa" font-size="9" font-weight="bold" font-family="sans-serif">P₁</text>
+    <text x="-22" y="3" text-anchor="middle" fill="#00d4aa" font-size="9" font-weight="bold" font-family="sans-serif">P₂</text>
+    <text x="22" y="3" text-anchor="middle" fill="#7b68ee" font-size="9" font-weight="bold" font-family="sans-serif">P₃</text>
+    <text x="0" y="25" text-anchor="middle" fill="#7b68ee" font-size="9" font-weight="bold" font-family="sans-serif">P₄</text>
+    <!-- Flow indicator arrow -->
+    <line x1="-8" y1="-34" x2="8" y2="-34" stroke="#ffcb6b" stroke-width="2"/>
+    <polygon points="11,-34 7,-37 7,-31" fill="#ffcb6b"/>
+  </g>
+</svg>
