@@ -1,7 +1,7 @@
 ## Instalación
-Primero deben crear una carpeta
-dentro de la carpeta entrar en la terminal 
-y escribir
+-Primero deben crear una carpeta
+-dentro de la carpeta entrar en la terminal 
+-escribir
 
 ```bash
 git clone https://github.com/islinas1/Metodo_Descensdiente_Gradiente_Conjugado.git
